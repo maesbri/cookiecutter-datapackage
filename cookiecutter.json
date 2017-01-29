@@ -1,11 +1,7 @@
 {
-    "full_name": "Your name",
-    "email": "Your address email (eq. you@example.com)",
-    "github_username": "Your github username",
-    "project_name": "Name of the project",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "project_short_description": "A short description of the project",
-    "release_date": "{% now 'local' %}",
-    "version": "0.1.0",
+    "dataset_title": "Elected Officials' Contact Information",
+    "dataset_slug": "dataset-toronto-{{ cookiecutter.dataset_title.lower().replace('\\'', '').replace(' ', '-') }}",
+    "dataset_short_description": "A dataset containing the contact information of the Mayor and the 44 Councillors elected to City of Toronto Council (2014 – 2018 term)",
+    "dataset_github_repo": "t0ronto-ca/{{ cookiecutter.dataset_slug }}",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
