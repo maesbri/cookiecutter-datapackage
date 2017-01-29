@@ -1,4 +1,4 @@
-# {{ cookiecutter.dataset_slug }}
+# {{ cookiecutter.dataset_title }}
 
 | Automated Test Suite | Status |
 |----------------------|--------|
