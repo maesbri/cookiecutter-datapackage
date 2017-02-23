@@ -1,5 +1,5 @@
 setup:
-	pip install -r scripts/requirements-test.txt
+	pip install --quiet -r scripts/requirements-test.txt
 
 validate: setup ## Validate data
 	goodtables datapackage datapackage.json
