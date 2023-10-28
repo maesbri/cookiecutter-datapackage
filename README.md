@@ -1,15 +1,15 @@
-cookiecutter-datapackage-toronto
+cookiecutter-datapackage
 ================================
 
-A cookiecutter template for creating a Toronto dataset in the DataPackage standard
+A cookiecutter template for creating a dataset using the DataPackage standard (https://specs.frictionlessdata.io/data-package/)
 
 Requirements
 ------------
-Install `cookiecutter` command line: `pip install cookiecutter`
+Install `cookiecutter` command line: `pipx install cookiecutter`
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:patcon/cookiecutter-datapackage-toronto`
+Generate a new Cookiecutter template layout: `cookiecutter gh:maesbri/cookiecutter-datapackage`
 
 License
 -------
