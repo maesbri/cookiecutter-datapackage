@@ -42,6 +42,6 @@
     ],
     "resource_encoding": ["utf-8", "binary"],
     "resource_format": [],
-    "resource_mimetype": ["text/csv", "text/xml", "text/json", ],
+    "resource_mimetype": ["text/csv", "text/xml", "text/json", "application/atom+xml"],
     "_extensions": ["jinja2_time.TimeExtension"]
 }
