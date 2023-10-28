@@ -1,0 +1,90 @@
+profile: data-package
+name: datapackage name
+title: datapackage title
+description: |-
+  datapackage description
+keywords:
+  - keyword 1
+  - keyword 2
+  - copernicus
+  - osm
+  - "inspire:theme:addresses"
+  - "inspire:theme:administrative units"
+  - "inspire:theme:agricultural and aquaculture facilities"
+  - "inspire:theme:area management / restriction / regulation zones & reporting units"
+  - "inspire:theme:atmospheric conditions"
+  - "inspire:theme:bio-geographical regions"  
+  - "inspire:theme:buildings"  
+  - "inspire:theme:cadastral parcels"
+  - "inspire:theme:coordinate reference systems"
+  - "inspire:theme:elevation"
+  - "inspire:theme:energy Resources"
+  - "inspire:theme:environmental monitoring Facilities"  
+  - "inspire:theme:geographical grid systems"
+  - "inspire:theme:geographical names"
+  - "inspire:theme:geology"  
+  - "inspire:theme:habitats and biotopes" 
+  - "inspire:theme:human health and safety"  
+  - "inspire:theme:hydrography"
+  - "inspire:theme:land cover"
+  - "inspire:theme:land use"  
+  - "inspire:theme:meteorological geographical features"
+  - "inspire:theme:mineral Resources"
+  - "inspire:theme:natural risk zones"
+  - "inspire:theme:oceanographic geographical features"  
+  - "inspire:theme:orthoimagery"  
+  - "inspire:theme:population distribution and demography"
+  - "inspire:theme:production and industrial facilities"
+  - "inspire:theme:protected sites"
+  - "inspire:theme:sea regions"
+  - "inspire:theme:soil"
+  - "inspire:theme:species distribution"
+  - "inspire:theme:statistical units"  
+  - "inspire:theme:transport networks"
+  - "inspire:theme:utility and governmental services"
+version: 1.0.0
+licenses:
+  - name: "CC-BY-4.0"
+    path: "https://creativecommons.org/licenses/by/4.0/"
+    title: "Attribution 4.0 International (CC BY 4.0)"
+homepage: homepage url
+publisher: name of the person/organization publishing the data
+contributors:
+  - title: contributor name
+    path: url
+    role: "author"
+coverage: 
+  temporal: "1935-2018"
+  spatial: "Global | Europe | Spain | Castellón | Les Alqueríes"
+created: '2021-07-21T13:44:35Z'
+last_updated: '2021-07-21T13:44:35Z'
+resources:
+  - encoding: utf-8
+    format: csv
+    mediatype: text/csv
+    hashing: md5
+    name: resource01
+    path: data/resource01.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: field01
+          type: date
+          format: "%Y-%m-%d"
+          description: field description
+        - name: field02
+          type: integer
+          description: field description
+          constraints:
+            minimum: 0
+        - name: field03
+          type: text
+          description: field description
+        - name: field04
+          type: boolean
+          description: field description
+        - name: field05
+          type: number
+          description: field description
+      primaryKey: field01
+    scheme: file
