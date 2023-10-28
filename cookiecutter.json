@@ -39,7 +39,7 @@
         "inspire:theme:statistical units",
         "inspire:theme:transport networks",
         "inspire:theme:utility and governmental services"
-    ]",
+    ],
     "resource_encoding": ["utf-8", "binary"],
     "resource_format": [],
     "resource_mimetype": ["text/csv", "text/xml", "text/json", ],
